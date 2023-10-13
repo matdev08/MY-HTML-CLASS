@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+       <style>
+        #bar{
+          background-color: rgb(245, 245,238);
+        }
+        #logo{
+          width: 20%;
+        }
+       </style> 
+</head>
+<body>
+    <!-- acordion -->
+
+
+    <div class="accordion bg-dark" id="accordionExample">
+        <h1 class="text-center bg-dark text-white pb-3">Frequently Asked Questions</h1>
+
+        <div class="accordion-item ms-5 me-5 m t-3">
+          <h2 class="accordion-header">
+            <button class="accordion-button bg-secondary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              What is Netflix?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body bg-dark">
+               <h4 class="text-white">Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.</h4>
+
+               <h4 class="text-white pt-4">You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!</h4>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item  ms-5 me-5 mt-3">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed bg-secondary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              How much does Netflix cost?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body bg-dark">
+                <h4 class="text-white">Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₦1,200 to ₦4,400 a month. No extra costs, no contracts.</h4>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item  ms-5 me-5 mt-3">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed bg-secondary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Where can i watch?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body bg-dark">
+               <h4 class="text-white"> Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.</h4>
+
+               <h4 class="text-white pt-4"> You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</h4>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item  ms-5 me-5 mt-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-secondary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                How do i cancel?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body bg-dark">
+                 <h4 class="text-white"> Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</h4>
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item  ms-5 me-5 mt-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-secondary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                How can i watch on Netflix?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body bg-dark">
+                 <h4 class="text-white">Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</h4>
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item  ms-5 me-5 mt-3">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed bg-secondary text-white" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Is Netflix good for kids?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body bg-dark">
+                 <h4 class="text-white">The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.</h4>
+
+                 <h4 class="text-white pt-4">Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.</h4>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <!-- navbar -->
+
+      <nav class="navbar navbar-expand-lg" id="bar">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img id="logo" src="../images/ycombinator-logo.webp" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Accelerator</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Companies</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Startup jobs
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- text alignment -->
+    <!-- <div class="text-center">lorem ipsum dolor sit amet</div> -->
+    <div class="text-decoration-underline">lorem ipsum dolor sit amet</div>
+    <p class="text-start">This is my paragragh</p>
+    <p class="text-center">This is my paragragh</p>
+    <p class="text-end">This is my paragragh</p>
+
+
+    <p class="text-primary">primary</p>
+    <p class="bg-secondary">secondary</p>
+    <p class="text-danger">danger</p>   
+    <p class="text-warning">warning</p>
+    <p class="text-success">success</p>
+    <p class="text-white bg-dark">white</p>
+    <p class="text-dark">dark</p>
+
+    <div class="bg-secondary p-3 ms-4 mt-4">lorem ipsum dolor sit amet,consectetur adipisicing </div>
+    <div class="bg-primary pt-2 pb-2 ps-5 pe-4 m-5">lorem ipsum dolor sit amet,consectetur adipisicing</div>
+    <div class="bg-success px-5 py-5">lorem ipsum dolor sit amet,consectetur adipisicing</div>
+    <div class="bg-danger">lorem ipsum dolor sit amet,consectetur adipisicing</div>
+    <div class="text-muted">yfwukqgfbrgiou</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</html>

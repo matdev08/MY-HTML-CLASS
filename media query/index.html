@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+        font-family: 'roboto'san-serif;
+    }
+
+    header{
+        background-color: aqua;
+    }
+
+    header nav{
+        max-width: 85%;
+        background-color: red;
+        margin: 0 auto;
+    }
+
+    header nav ul li{
+        display: inline-block;
+        padding: 1.4em;
+    }
+    .toggle{
+        background-color: burlywood;
+        padding: 10px 20px;
+        text-align: right;
+        font-size: 1.7em;
+        color: white;
+        display: none;
+    }
+
+    section{
+    background-color: purple;
+    height: 80vh;
+    width: 100%;
+}
+
+section .wrapper{
+    display: flex;
+    height: 80vh;
+}
+
+section .wrapper .text{
+    width: 50%;
+    height: 100%;
+    background-color:yellow;
+    padding-left: 7em;
+    padding-top: 3em;
+    line-height: 2;
+    font-size: 1.5em;
+}
+
+section .wrapper .image{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    background-image: url(../images/why-y-combinator.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+    /* media query */
+    @media (max-width: 946px){
+    section .wrapper .text{
+      line-height: 1.9;
+      padding-left: 3.5em;
+      padding-top: 2em;
+      font-size: 1.2em;
+      color: yellowgreen;
+        }
+    }
+
+    @media (max-width: 632px){
+        section .wrapper{
+       height: 78vh;
+        }
+        
+    }
+
+@media (max-width: 617px){
+.toggle{
+    display: block;
+}
+
+header nav ul li{
+    display: none;
+}
+}
+
+@media (max-width: 582px){
+    section .wrapper .text{
+        line-height: 1.5;
+    }
+    
+}
+
+@media (max-width: 500px){
+        section .wrapper{
+       flex-wrap: wrap;
+        }
+
+        section .wrapper .text{
+            width: 100%;
+        }
+
+        section .wrapper .image{
+            width: 100%;
+        }
+        
+    }
+
+@media (max-width: 496px){
+        section .wrapper{
+       height: 68vh;
+        }
+    
+    }
+
+    @media (max-width: 494px){
+    section .wrapper .text{
+        line-height: 1.3;
+    }
+    
+}
+
+@media (max-width: 494px){
+    section .wrapper .text{
+        line-height: 1.7;
+        padding:3em ;
+    }
+    
+}
+
+
+    </style>
+</head>
+<body>
+    
+    <!-- header -->
+
+    <header>
+        <nav>
+            <div class="toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Our Services</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">Contact us</a></li>
+                <li><a href="">FAQs</a></li>
+            </ul>
+        </nav>
+    </header>
+
+ 
+
+    <!-- hero page -->
+
+    <section>
+        <div class="wrapper">
+            <div class="text">
+                <h1>Lorem ipsum dolor sit amet,consectetur adipiscing elit</h1>
+                <p>>Lorem ipsum dolor sit amet</p>
+                <p>>Lorem ipsum dolor sit amet</p>
+                <p>>Lorem ipsum dolor sit amet</p>
+                <p>>Lorem ipsum dolor sit amet</p>
+                <p>>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="image"></div>
+        </div>
+    </section>
+
+</body>
+</html>

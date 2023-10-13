@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .container{
+    border: thick solid blue;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+}
+
+.item{
+    border: thick solid green;
+    height: 30vh;
+    background-color: green;
+    width: 20%;
+    margin: 10px; 
+}
+
+.item:nth-of-type(2){
+    background-color: blue;
+    border: none; */
+    /* transform: translateY(-50px) translateX(100px); */
+    /* transform: rotate(60deg); */
+    /* transform: rotateX(100deg); */
+    /* transform: rotateY(100deg); */
+    /* transform: skew(50deg); */
+    /* transform: skewY(50deg); */
+    /* transform: scale(2,1); */
+
+.grid-container{
+border: thick solid blue;
+min-height: 60vh;
+width:80% ;
+display: grid;
+justify-content: center;
+gap: 3em;
+align-items: center;
+margin:5em;
+grid-template-columns: 3fr 3fr;
+perspective: 1000px;
+
+}
+
+.grid-item{
+    /* border:thick solid green ; */
+    width: 60%;
+    height: 30vh;
+    margin: auto;
+
+}
+.grid-item:nth-of-type(1):hover{
+    transform: rotate(45deg);
+    transition: 10s;
+}
+
+.grid-item:nth-of-type(1){
+    background-color: rgb(254, 96, 3);
+}
+
+.grid-item:nth-of-type(2){
+    background-color: rgb(221, 25, 155);
+}
+.grid-item:nth-of-type(2):hover{
+    transform: scale(110%);
+    transition: 10s;
+}
+
+.grid-item:nth-of-type(3){
+    background-color: rgb(179, 221, 25);
+}
+.grid-item:nth-of-type(3):hover{
+    transform: skew(50deg);
+    transition: 10s;
+}
+
+
+.grid-item:nth-of-type(4){
+    background-color: rgba(25, 221, 67, 0.86);
+}
+
+.grid-item:nth-of-type(4):hover{
+    transform: translate(100px);
+    transition: 10s;
+}
+   
+
+</style>
+
+
+</head>
+<body>
+
+    <!-- <div class="container">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+    </div> -->
+
+                         <!-- classwork -->
+
+<div class="grid-container">
+    <div class="grid-item">1</div>
+      <div class="grid-item">2</div>
+      <div class="grid-item">3</div>
+      <div class="grid-item">4</div>
+</div>               
+</body>
+</html>

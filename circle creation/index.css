@@ -1,0 +1,49 @@
+.box{
+    border: thick solid green;
+    min-height: 80vh;
+    margin:auto;
+    width: 40%;
+    border-radius: 50%;
+    background-color: green;
+
+}
+.box2{
+    border: thick solid red;
+    margin: auto;
+    min-height:70vh;
+    width: 35%;
+    border-radius: 50%;
+    margin-top: -35.2em;
+    background-color: red;
+    
+}
+
+.box3{
+    border: thick solid purple;
+    margin: auto;
+    min-height: 60vh;
+    width: 86%;
+    border-radius:50%;
+    margin-top:2em;
+    background-color: purple;
+}
+
+.box4{
+    border: thick solid yellow;
+    margin: auto;
+    min-height: 50vh;
+    width: 70%;
+    border-radius: 50%;
+    margin-top: -26em;
+    background-color: yellow;
+}
+
+.box5{
+    border: thick solid blue ;
+    margin: auto;
+    min-height: 40vh;
+    width:55%;
+    border-radius: 50%;
+    margin-top: -21.5em;
+    background-color: blue;
+}

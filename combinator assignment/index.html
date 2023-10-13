@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color:rgb(245,245,238);
+    height: 18vh;
+    
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1.2em;
+    justify-content: center;
+    padding: 3em;
+    padding-right: 2em;
+
+}
+header nav{
+    margin-left: 10%;
+    display: flex;
+    gap: 5em;
+
+}
+
+header nav img{
+    width: 3.8em;
+    margin:2em ;
+    position: absolute;
+    height: 10%;
+    margin-left: 2.5%;
+    
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    
+}
+
+.button-tag p{
+    margin-top: 27%;
+    
+}
+
+.button-tag button{
+    margin-left: 12%;
+    height: 6vh;
+    font-size: 1.2em;
+    width: 5%;
+    position: absolute;
+    margin-top: -2%;
+    background-color: rgb(251, 101, 30);
+    border-radius: 0.5em;
+    border: none;
+
+}
+.bold1:hover{
+background-color: rgb(253, 169, 66);
+}
+.second-side{
+    display: flex;
+
+}
+
+.left{
+    width: 70%;
+    min-height: 50vh;
+    margin-top: 7%;
+    margin-left: 15%;
+    
+    
+}
+
+
+.right{
+    width: 50%;
+    min-height: 50vh;
+
+}
+
+.left h1{
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.left h3{
+    font-size: 3.5rem;
+    color: rgb(253, 169, 66);
+    font-family:  Avenir,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;;
+}
+
+.left p{
+    font-size: 1.8rem;
+    
+}
+
+.left button{
+    width: 27%;
+    height: 7vh;
+    background-color:rgb(253, 169, 66);
+    margin-top: 3%;
+    font-size: 1.2em;
+    border-radius: 0.5em;
+    text-decoration: none;
+    border: none;
+
+}
+.bold2:hover{
+    background-color: rgb(251,101,30);
+}
+
+.thirdside{
+    border: 1px thick solid rgb(245, 245, 238);
+    background-color: rgb(245, 245, 238);
+    display: flex;
+    min-height: 100vh;
+    gap: 1em;
+    justify-content: center;
+    
+}
+
+.flex-items{
+    border: thick solid rgb(245,245,238);
+    height: 20vh;
+    width: 25%;
+   background-color: rgb(255,255,255);
+   margin-top: 5%;
+   padding: 1em;
+   border-radius: 0.9em;
+
+   
+}
+            
+
+
+
+</style>
+
+</head>
+<body>
+
+
+
+
+    <header>
+        <nav>
+            <div><img src="../images/ycombinator-logo.webp" alt=""></div>
+            <div>
+                <ul>
+                    <li><a href="">Accelerator</a></li>
+                    <li><a href="">Companies</a></li>
+                    <li><a href="">Startup Jobs</a></li>
+                    <li><a href="">Find a Co-Founder</a></li>
+                    <li><a href="">Library</a></li>
+                    <li><a href="">SAFE</a></li>
+                    <li><a href="">Resources</a></li>
+            
+                </ul>
+                <!-- <input style="height: 5vh;width: 5%;" type="button" value="Apply" placeholder="Apply"> -->
+            </div>
+
+            <div class="button-tag">
+                <p style="padding-top: 3%;border-radius: 5%;">Apply for <b>W2024 </b>batch.</p>
+                 <button class="bold1"><a href="" style="color: white; text-decoration: none;">Apply</a></button>
+            </div>
+         
+         
+        </nav>
+    </header>
+
+
+
+    <div class="second-side" >
+        <div class="left">
+            <h1>Why</h1>
+            <h3>Y Combinator?</h3>
+            <p>we give startups a <br> disproportionate advantage</p>
+            <button class="bold2"><a href="" style="color: white;text-decoration: none;">Apply to YC</a></button>
+        </div>
+        <div class="right"><img src="../images/why-y-combinator.jpg" alt=""></div>
+    </div>
+
+
+    <div class="thirdside">
+        <div class="flex-items">
+            <a style="text-decoration: none;font-size: 1.2em;" href="YC Top Companies List by Revenue">YC Top Companies List by Revenue</a> <br>
+            <p style="padding-top: 3%;font-size: 1.2em;">Congratulations to the companies <br>recognized on the inaugural YC TOP <br> Companies List by Revenue!</p>
+        </div>
+        <div class="flex-items">
+            <a style="text-decoration: none;font-size: 1.2em;" href="The Evolution of the Batch">The Evolution of the Batch</a> <br>
+            <p style="padding-top: 3%;font-size: 1.2em;">An insider look with the S22 founders</p>
+        </div>
+        <div class="flex-items">
+            <a style="text-decoration: none;font-size: 1.2em;" href="The New Standard Deal">The New Standard Deal</a> <br>
+            <p style="padding-top: 3%;font-size: 1.2em;" >When a company is accepted into the YC <br> batch program,we now invest a total of <br> $500,000</p>
+        </div>
+    </div>
+</body>
+</html>

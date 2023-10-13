@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        div > p{
+            background-color: blue;
+        }
+
+
+        .flex-container{
+            border: thick solid black;
+            min-height: 60vh;
+            display: flex;
+            gap: 10px;
+            justify-content: space space-between;
+            align-items: center;
+            flex-direction: row-reverse;
+        }
+
+        .flex-items{
+            border: thick solid green;
+            height: 20vh;
+            width: 25%;
+            background-color: green;
+            /* margin: 5px; */
+            
+        }
+
+        .flex-items:nth-of-type(2){
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    
+
+<div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.cum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.cum.</p>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.cum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.cum.</p>
+    </section>
+</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.cum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.cum.</p> <br><br><br><br>
+
+
+
+    <div class="flex-container">
+        <div class="flex-items">1</div>
+        <div class="flex-items">2</div>
+        <div class="flex-items">3</div>
+
+    </div>
+
+
+</body>
+</html>

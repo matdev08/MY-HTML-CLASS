@@ -1,0 +1,41 @@
+.first{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFoyWltlAK2h7PC5MVafsvXP3xeDrrvod-3g&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.second{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMid1I1osxd3XtAoYKlXTFZd6HfLZPCKTO9A&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nine{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYoehAsSwGfQVwCf2PPlf_5UDuxQmSV4s3ag&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.fifty{
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQLa7CiflIz_BHuz0VqDCHpgM0iDQcQFxYId3GHn62BJlm25ydP0_9QGzUpPpDnK-fQpI&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.five{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Nk8Rpc8Xo74LkmHUFWoLkDoQcXfvkIGlnw&usqp=CAU);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+td{
+    background-color: azure;
+}

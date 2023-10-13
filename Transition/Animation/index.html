@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 100px auto;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+    /* transition-timing-function: ease; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-in-out; */
+    /* transition-delay: 2s; */
+    
+
+    /* animation properties */
+    animation-name: slider;
+    animation-duration: 5s;
+    animation-iteration-count:2;
+    animation-timing-function: cubic-bezier(0.45, 0.05, 0.795, 0.035);
+}
+
+/* .box:hover{
+    width: 200px;
+    background-color: blue;
+    height: 50vh;
+    transition: 1s; transform:rotate(90deg);
+} */
+
+@keyframes slider{
+    0%{
+        background-color: red;
+        height: 100px;
+        transform: translate(50px);
+    }
+
+    25%{
+        background-color: blue;
+        width: 300px;
+        transform: translate(100px);
+    }
+
+    50%{
+       background-color: green;
+       width: 250px;
+       height: 300px;
+       transform: scale(100px);
+    }
+
+    75%{
+        background-color: purple;
+        width:350px;
+        height: 350px;
+        transform: translate(200px);
+    }
+
+    100%{
+        background-color: black;
+        width: 500px;
+        height: 500px;
+        transform: translate(-300px);
+    }
+}
+
+
+
+</style>
+ 
+
+</head>
+<body>
+    
+<div class="box">
+
+</div>
+
+</body>
+</html>

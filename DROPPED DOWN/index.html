@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+     *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+     }
+
+     .menu-bar{
+        background-color: blueviolet;
+        text-align: center;
+     }
+
+     .menu-bar ul{
+        display: inline-flex;
+        gap: 4em;
+        padding: 12px;
+     }
+
+     .menu-bar ul li a{
+        color: white;
+
+     }
+
+     .sub-menu{
+        display: none;
+        
+     }
+
+     .menu-bar ul li:hover .sub-menu{
+        display: block;
+        position: absolute;
+        background-color: red;
+        top: 40px;
+        right: 45em;vp
+     }
+      
+     .menu-bar ul li:hover .sub-menu ul{
+      display: block;
+      margin: 0.2em;
+     }
+     .menu-bar ul li:hover .sub-menu ul li{
+        padding: 10PX;
+        width: 130px;
+     }
+
+
+
+
+    </style>
+</head>
+<body>
+    
+<!-- dropped down -->
+ <div class="menu-bar">
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a>
+           <div class="sub-menu">
+            <ul>
+                <li><a href="">Clothes</a></li>
+                <li><a href="">Peanuts</a></li>
+                <li><a href="">Water</a></li>
+                <li><a href="">Perfumes</a></li>
+            </ul>
+           </div>
+        </li>
+        <li><a href="">Contact Us</a></li>
+        <li><a href="">FAQs</a></li>
+        
+    </ul>
+ </div>
+
+
+</body>
+</html>
